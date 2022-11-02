@@ -1,0 +1,21 @@
+import time
+print("welcome to the cheeto official factory \n")
+time.sleep(2.5)
+print("the cheto factory is aperantly haunted by old python developers who have not left since the release of lua \n")
+time.sleep(2.5)
+input("you see a cheeto next to the door that says -radioactive-. do you eat it? (press enter)")
+sound = input("Enter y or n: \n")
+if sound == "y": 
+  print("oooh..wierd descision.... you now have food poisening. But on the plus side, you have cheeto super powers!")
+else:
+  print("good job on not getting food poisesning :] \n")
+  time.sleep(2.5)
+  input("you here mr cheeto walking down the corridor. If he catches you he will eat you. what will you do? (press enter) \n")
+  time.sleep(1)
+  input("a = run away b = hide in the cheeto processor machine (press enter)")
+  sound == input("Enter a or b: ")
+  if sound == "a":
+   print("you run down the hallway, he hears it, and alerts the facillity to be on high alert")
+  if sound == "b":
+   print("he nears closer and closer.")
+
