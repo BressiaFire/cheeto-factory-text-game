@@ -7,15 +7,34 @@ input("you see a cheeto next to the door that says -radioactive-. do you eat it?
 sound = input("Enter y or n: \n")
 if sound == "y": 
   print("oooh..wierd descision.... you now have food poisening. But on the plus side, you have cheeto super powers!")
-else:
+  print("you feel a wierd sensation")
+  time.sleep(1)
+  print("... \n")
+  time.sleep(1)
+  print("you flick your fingers and, cheeto daggers shoot out of your arms! \n")
+  input("do you decide to use your powers, or not?")
+  input("Enter y (use powers) or n (do not use powers):")
+  if sound == "y":
+    print("good choice. you will need it to protect you lat-")
+    time.sleep(2)
+    print("I HAVE SAID TOO MU-")
+    time.sleep(2)
+    print("...")
+    time.sleep(1)
+    print("your narrarator has been replaced.")
+  if sound == "n":
+    print("interesting...")
+    time.sleep(2)
+    print("...")
+    time.sleep(2)
+    print("you hear voices coming down from the southern hall")
+    print("what do you do?")
+    input("Do you (a) run towards the northern hall, or (b) stay where you are and hide")
+if sound == "n":
   print("good job on not getting food poisesning :] \n")
   time.sleep(2.5)
   input("you here mr cheeto walking down the corridor. If he catches you he will eat you. what will you do? (press enter) \n")
   time.sleep(1)
-  input("a = run away b = hide in the cheeto processor machine (press enter)")
-  sound == input("Enter a or b: ")
+  sound == input("Enter a = run away, or b = hide in the cheeto processor machine: ")
   if sound == "a":
-   print("you run down the hallway, he hears it, and alerts the facillity to be on high alert")
-  if sound == "b":
-   print("he nears closer and closer.")
-
+      print("You dash away from the tyranical mr cheeto. Fortenetly, he forgot to bring his hearing aids to work, and did not         hear you!")
